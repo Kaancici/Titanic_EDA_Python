@@ -180,6 +180,9 @@ We visualized the columns with missing values
 train_df.boxplot(column="Fare",by="Embarked")
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/0e45ee0a-cadd-450c-82db-0794ad63a933)
+
+
 We filled the missing values
 ```
 train_df["Embarked"] = train_df["Embarked"].fillna("C")
